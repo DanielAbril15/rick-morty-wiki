@@ -3,7 +3,6 @@ import axios from "axios";
 
 const useFetch = (url) => {
   const [response, setResponse] = useState();
-
   useEffect(() => {
     axios
       .get(url)

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import useFetch from "../hooks/useFetch";
 import "./css/characterCard.css";
 const CharacterCard = ({ url }) => {
@@ -6,8 +6,8 @@ const CharacterCard = ({ url }) => {
   console.log(character);
   return (
     <section className="card-container">
-      <div className="status">
-        <span></span>
+      <div className={`status ${character?.status}-container`}>
+        <span className={character?.status}></span>
         {character?.status}
       </div>
       <figure>

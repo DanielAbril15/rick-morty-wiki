@@ -18,7 +18,7 @@
 .status {
   position: absolute;
   top: 20px;
-  width: 90px;
+  width: 66px;
   height: 21px;
   color: var(--letter-color);
   background-color: var(--principal-color);
@@ -28,10 +28,25 @@
   align-items: center;
   border-radius: 0 5px 5px 0;
 }
-.status span {
+.unknown-container {
+  width: 90px;
+}
+.status .unknown {
   width: 10px;
   height: 10px;
   background-color: #ffffff;
+  border-radius: 50%;
+}
+.status .Alive {
+  width: 10px;
+  height: 10px;
+  background-color: #05fb42;
+  border-radius: 50%;
+}
+.status .Dead {
+  width: 10px;
+  height: 10px;
+  background-color: #ff0000;
   border-radius: 50%;
 }
 .card-container figure {
