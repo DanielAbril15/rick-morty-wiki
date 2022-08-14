@@ -1,12 +1,18 @@
 :root {
   --principal-color: #05292e;
   --letter-color: #ffffff;
+  --titles: #938f8f;
 }
 .universe {
   display: grid;
   height: 200px;
   justify-content: center;
   align-items: center;
+}
+.universe-instruction {
+  text-align: center;
+  align-self: flex-end;
+  color: var(--titles);
 }
 
 .universe form {

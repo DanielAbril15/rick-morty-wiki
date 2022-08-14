@@ -7,6 +7,7 @@
 .card-container {
   width: 80%;
   max-width: 200px;
+  height: 400px;
   display: grid;
   gap: 6px;
   position: relative;
