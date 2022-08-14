@@ -1,0 +1,58 @@
+:root {
+  --principal-color: #05292e;
+  --letter-color: #ffffff;
+  --titles: #938f8f;
+  --card-color: #062226;
+}
+.card-container {
+  width: 80%;
+  max-width: 200px;
+  display: grid;
+  gap: 6px;
+  position: relative;
+  background-color: var(--card-color);
+  padding-bottom: 10px;
+  border-radius: 6px;
+}
+.status {
+  position: absolute;
+  top: 20px;
+  width: 90px;
+  height: 21px;
+  color: var(--letter-color);
+  background-color: var(--principal-color);
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 5px 5px 0;
+}
+.status span {
+  width: 10px;
+  height: 10px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+.card-container figure {
+  width: 100%;
+}
+
+.card-container figure img {
+  width: 100%;
+}
+.card-container p {
+  display: flex;
+  flex-direction: column;
+  margin-left: 6px;
+  color: var(--titles);
+}
+.card-container .name {
+  color: var(--letter-color);
+  font-size: 18px;
+  font-weight: 700;
+  border-bottom: 1px solid var(--titles);
+  margin-right: 6px;
+}
+.card-container span {
+  color: var(--letter-color);
+}

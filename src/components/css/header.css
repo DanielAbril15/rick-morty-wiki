@@ -1,0 +1,41 @@
+:root {
+  --principal-color: #05292e;
+  --letter-color: #ffffff;
+  --titles: #938f8f;
+}
+.header-container {
+  width: 100%;
+  height: 190px;
+}
+
+.header-container figure {
+  height: 140px;
+  overflow: hidden;
+}
+.header-container figure img {
+  width: 100%;
+  object-fit: cover;
+}
+.header-container h1 {
+  text-align: center;
+  color: var(--letter-color);
+  padding-top: 10px;
+}
+.universe-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.universe-info_text {
+  font-size: 20px;
+}
+.universe-info p {
+  color: var(--titles);
+  font-weight: bold;
+}
+.universe-info span {
+  color: var(--letter-color);
+  font-weight: 300;
+}
